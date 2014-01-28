@@ -18,3 +18,32 @@ The first iteration of changes includes:
 
 
   I hope as many people as possible contribute to this project ;-) Lets sqeeze the last bit out of our GPUs.
+  
+Usage
+=====
+
+Linux:
+# pypy is generally quicker than python
+1) apt-get install pypy -y (CentOS Installer: https://gist.github.com/baoshan/2478886)
+2) Download generate_even_more_rendezvous_points.py
+3) pypy generate_even_more_rendezvous_points.py *BTC ADDRESS*
+e.g. "pypy generate_even_more_rendezvous_points.py 19JCVCrRz7SR4ozbvGn8YX6Z479A8a5ztm"
+
+RasPi:
+(Overclocking recommended)
+1) Download generate_even_more_rendezvous_points.py
+2) pypy generate_even_more_rendezvous_points.py *BTC ADDRESS*
+e.g. "pypy generate_even_more_rendezvous_points.py 19JCVCrRz7SR4ozbvGn8YX6Z479A8a5ztm"
+
+Windows:
+1) Download prerequirements;
+http://www.microsoft.com/en-us/download/details.aspx?id=5582
+2) Download pypy
+https://bitbucket.org/pypy/pypy/downloads/pypy-2.2.1-win32.zip
+3) Download generate_even_more_rendezvous_points.py
+4) Windows key + R
+5) type "cmd" and hit enter
+6) Navigate to where you downloaded the script to
+e.g. "cd C:\users\jayc89\Downloads"
+6) pypy.exe generate_even_more_rendezvous_points.py *BTC ADDRESS*
+e.g. "pypy.exe generate_even_more_rendezvous_points.py 19JCVCrRz7SR4ozbvGn8YX6Z479A8a5ztm"
